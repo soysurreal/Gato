@@ -1,0 +1,14 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+background-color: mistyrose;
+}
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
