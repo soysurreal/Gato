@@ -3,6 +3,11 @@
   font-weight: 500;
   font-style: normal;
 }
+body{
+    background-color:#fefae0;
+}
+
+
 
 #contenedor {
   margin: auto 1em;
@@ -35,8 +40,6 @@ height: 400px;
 .prediccion {
   font-size: 1.5em;
   color:#654c4f;
-  margin-top: 0.1em;
-  margin-bottom: 0.1em;
 }
 
 .prediccion::first-letter {
@@ -45,9 +48,9 @@ height: 400px;
 
 #boton {
   background-color: #fefae0;
+  border-color: #c0caad;
   font-size: 1em;
   font-family: 'Times New Roman', Times, serif;
-  background-color: #fefae0;
   color: #c0caad;
   margin-bottom: 5em;
   cursor: pointer;

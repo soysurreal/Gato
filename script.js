@@ -1,26 +1,27 @@
+
 const imagenes = [
-"/tarot/1.jpg",
-"/tarot/2.jpg",
-"/tarot/3.jpg",
-"/tarot/4.jpg",
-"/tarot/5.jpg",
-"/tarot/6.jpg",
-"/tarot/7.jpg",
-"/tarot/8.jpg",
-"/tarot/9.jpg",
-"/tarot/10.jpg",
-"/tarot/11.jpg",
-"/tarot/12.jpg",
-"/tarot/13.jpg",
-"/tarot/14.jpg",
-"/tarot/15.jpg",
-"/tarot/16.jpg",
-"/tarot/17.jpg",
-"/tarot/18.jpg",
-"/tarot/19.jpg",
-"/tarot/20.jpg",
-"/tarot/21.jpg",
-"/tarot/22.jpg",
+"/tarot/1.png",
+"/tarot/2.png",
+"/tarot/3.png",
+"/tarot/4.png",
+"/tarot/5.png",
+"/tarot/6.png",
+"/tarot/7.png",
+"/tarot/8.png",
+"/tarot/9.png",
+"/tarot/10.png",
+"/tarot/11.png",
+"/tarot/12.png",
+"/tarot/13.png",
+"/tarot/14.png",
+"/tarot/15.png",
+"/tarot/16.png",
+"/tarot/17.png",
+"/tarot/18.png",
+"/tarot/19.png",
+"/tarot/20.png",
+"/tarot/21.png",
+"/tarot/22.png",
 ];
 
 const titulos = [
@@ -105,3 +106,29 @@ boton.addEventListener("click", function () {
 });
 
 generarPrediccion();
+
+
+let player;
+
+function onYouTubeIframeAPIReady() {
+  player = new YT.Player('player', {
+    height: '0',
+    width: '0',
+    videoId: 'pQ5brswRTz8',
+
+    playerVars: {
+      autoplay: 1,
+      loop: 1,
+      playlist: 'pQ5brswRTz8'
+    }
+  });
+}
+
+document.addEventListener("click", () => {
+
+  if (player) {
+    player.setVolume(5);
+    player.playVideo();
+  }
+
+}, { once: true });
