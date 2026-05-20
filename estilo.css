@@ -1,5 +1,16 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
 body {
-    background-color:#faedcd;
+background-color:#faedcd;
+}
+
+html,
+body {
+  margin: 10;
+  padding: 10;
 }
 
 .jaini-regular {
@@ -10,14 +21,59 @@ body {
 
 h1 {
     font-family: "Jaini";
-    font-size: 4vw;
+    font-size: 4em;
     text-align: center;
     color:#9da9a0;
 }
 
 p {
-    font-size: 1vw;
+    font-size: 1em;
     text-align: center;
     color:#654c4f;
+}
+
+h2 {
+  font-size: 1.1em;
+  font-family: "Jaini";
+  color: #c0caad;
+}
+
+#contenedor {
+  margin: auto 1em;
+  text-align: center;
+}
+
+#tituloPagina {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-family: "Jaini";
+  color: #9da9a0;
+}
+
+#foto {
+height: 600px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+.tituloPrediccion {
+  font-size: 2em;
+}
+
+.prediccion {
+  font-size: 1.5em;
+}
+
+.prediccion::first-letter {
+  text-transform: uppercase;
+}
+
+#boton {
+  font-size: 0.9em;
+  background-color: #c0caad;
+  font-family: "Jaini";
+  color: white;
+  margin-bottom: 2em;
+  cursor: pointer;
 }
 
