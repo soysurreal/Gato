@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color:antiquewhite;
 }
 
 .jaini-regular {
@@ -10,9 +10,14 @@ body {
 
 h1 {
     font-family: "Jaini";
-    font-size: 3vw;
-    color:darkred;
+    font-size: 4vw;
     text-align: center;
-    
+    color:#9da9a0;
+}
+
+p {
+    font-size: 2vw;
+    text-align: center;
+    color:#654c4f;
 }
 
