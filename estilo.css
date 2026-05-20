@@ -1,39 +1,7 @@
-html {
-  box-sizing: border-box;
-  height: 100%;
-}
-
-
-
-html,
-body {
-  margin: 10;
-  padding: 10;
-}
-
 .jaini-regular {
   font-family: "Jaini", system-ui;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
-}
-
-h1 {
-    font-family: "Jaini";
-    font-size: 4em;
-    text-align: center;
-    color:#9da9a0;
-}
-
-p {
-    font-size: 1em;
-    text-align: center;
-    color:#654c4f;
-}
-
-h2 {
-  font-size: 1.1em;
-  font-family: "Jaini";
-  color: #c0caad;
 }
 
 #contenedor {
@@ -41,25 +9,34 @@ h2 {
   text-align: center;
 }
 
+h1 {
+    color: #c0caad;
+     margin-top: 1em;
+     margin-bottom:1em;
+     text-align: center;
+}
+
 #tituloPagina {
-  margin-top: 2em;
-  margin-bottom: 1em;
-  font-family: "Jaini";
-  color: #9da9a0;
+font-size: 2.5em;
+font-family: "Jaini";
+color: #9da9a0;
 }
 
 #foto {
-height: 600px;
-margin-top: 15px;
-margin-bottom: 15px;
+height: 400px;
 }
 
 .tituloPrediccion {
   font-size: 2em;
+  font-family: "Jaini";
+  color: #c0caad;
 }
 
 .prediccion {
   font-size: 1.5em;
+  color:#654c4f;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
 }
 
 .prediccion::first-letter {
@@ -67,11 +44,20 @@ margin-bottom: 15px;
 }
 
 #boton {
-  font-size: 0.9em;
-  background-color: #c0caad;
-  font-family: "Jaini";
-  color: white;
-  margin-bottom: 2em;
+  background-color: #fefae0;
+  font-size: 1em;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #fefae0;
+  color: #c0caad;
+  margin-bottom: 5em;
   cursor: pointer;
+}
+
+p {
+font-size: 0.8em;
+font-family: 'Times New Roman', Times, serif;
+color:#654c4f;
+text-align: center;
+font-size: 0.8em;
 }
 
